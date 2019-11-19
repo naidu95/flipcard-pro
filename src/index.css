@@ -33,6 +33,11 @@ body{
     animation-duration: 1s;
     visibility: visible;
 }
+.new-inline {
+    display: inline-flex !important;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
 @keyframes fade-in{
     from {
         opacity: 0;
