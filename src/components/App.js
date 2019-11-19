@@ -10,7 +10,7 @@ render(){
            <hr/>
                 <StackList />
             <hr/>
-            <Link to="stack_form"><h2>Create a New Stack</h2></Link>
+            <Link to="stack_form"><p>Create a New Stack</p></Link>
         </div>
     )
 }
