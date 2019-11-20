@@ -17,7 +17,7 @@ class StackList extends Component{
                         return(
                             <Link 
                             key={index} 
-                            to='/stack,'
+                            to='/stack'
                             onClick={()=>this.props.setStack(stack)}>
                                 <h2 >{stack.title}</h2>
                             </Link>
