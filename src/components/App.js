@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import StackList from './Statcklist';
+import StackList from './StatckList';
 import { Link } from 'react-router-dom';
 
 class App extends Component{
@@ -10,7 +10,7 @@ render(){
            <hr/>
                 <StackList />
             <hr/>
-            <Link to="stack_form"><p>Create a New Stack</p></Link>
+            <Link to="stack_form"><h4>Create a New Stack</h4></Link>
         </div>
     )
 }
